@@ -20,10 +20,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'helloworld=test_pkg.node_helloworld:main',
-        'test=test_pkg.test:main',
-        'helloworld_pub=test_pkg.topic_helloworld_pub:main',
-        'helloworld_sub=test_pkg.topic_helloworld_sub:main'
+            'helloworld=test_pkg.node_helloworld:main',
+            'test=test_pkg.test:main',
+            'helloworld_pub=test_pkg.topic_helloworld_pub:main',
+            'helloworld_sub=test_pkg.topic_helloworld_sub:main',
+            'topic_motion=test_pkg.topic_motion:main',
         ],
     },
 )
