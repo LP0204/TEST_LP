@@ -25,6 +25,7 @@ setup(
             'helloworld_pub=test_pkg.topic_helloworld_pub:main',
             'helloworld_sub=test_pkg.topic_helloworld_sub:main',
             'topic_motion=test_pkg.topic_motion:main',
+            'camera_rgb_ev=test_pkg.camera_rgb_ev:main',
         ],
     },
 )
